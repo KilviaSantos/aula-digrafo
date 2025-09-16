@@ -1,0 +1,54 @@
+/* Define a fonte padrão e remove margens */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Estiliza o cabeçalho */
+header {
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Espaçamento interno do conteúdo principal */
+main {
+  padding: 20px;
+}
+
+/* Estiliza cada seção com margem inferior */
+section {
+  margin-bottom: 20px;
+}
+
+/* Imagens responsivas */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px 0;
+}
+
+/* Lista com espaçamento */
+ul {
+  padding-left: 20px;
+}
+
+/* Links com cor e sublinhado */
+a {
+  color: #2980b9;
+  text-decoration: underline;
+}
+
+/* Rodapé discreto */
+footer {
+  background-color: #ecf0f1;
+  padding: 10px;
+  text-align: center;
+  font-size: 0.9em;
+  color: #555;
+}
